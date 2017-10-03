@@ -12,7 +12,11 @@
 
 - No prompt de comando entre no diretório do projeto e digite:
 - npm install + enter (criação da pasta node modules)
-- e depois
+- Na raiz do projeto, crie um arquivo .bowerrc e coloque esse trecho de código:
+{
+  "directory": "src/bower_components"
+}
+- No prompt de comando digite:
 - bower install + enter (criação da pasta bower_components)
 - Na pasta dist já existem os arquivos compilados, mas caso queira compilá-los novamente digite no prompt de commando:
 - gulp clean + enter (limpar os arquivos da pasta dist)
